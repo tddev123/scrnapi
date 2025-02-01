@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "Helloooooooooooooo, FastAPI!"}
+    return {"message": "Helloooooooooooooo, FastAPPPPPPPPPPPPPPPPPPPPPPI!"}
 
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: str = None):
